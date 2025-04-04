@@ -53,4 +53,4 @@ KVM使用vfio生成的eventfd注册consumer
 
 [QEMU-KVM中的VFIO MSI机制](https://www.cnblogs.com/haiyonghao/p/14709880.html)
 
-
+[IOMMU DMA VFIO 一站式分析](https://www.owalle.com/2021/11/01/iommu-code/)
