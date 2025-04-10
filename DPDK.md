@@ -115,3 +115,16 @@ switch_worker(void *arg __rte_unused)
 virtio_net_device_ops
 
 ### prog guid - vhost
+[async vhost](async vhost.md)
+
+
+### Switch Representation within DPDK Applications
+E-Switch representation offload
+
+port representors(DPDK)
+
+- Ethernet switch device driver model (switchdev)(Linux)
+
+以太网交换机设备驱动程序模型 (switchdev) 是用于交换机设备的内核驱动程序模型，可将转发（数据）平面从内核中卸载。
+[Ethernet switch device driver model (switchdev)](https://www.kernel.org/doc/Documentation/networking/switchdev.txt)
+

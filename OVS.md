@@ -1,3 +1,4 @@
+## 微信公众号文章
 [Intel® Ethernet Controller 700系列: Open vSwitch硬件加速应用说明](https://mp.weixin.qq.com/s?__biz=MzI3NDA4ODY4MA==&mid=2653337015&idx=1&sn=43b13a351e2ba4489a03093345a6acb5&chksm=f0cb4230c7bccb269d7a418d5545dfd1eafcb53bf1eb4a7ce8357533993f1a3d2ebc97c73a32&mpshare=1&scene=1&srcid=1126v66kn9OZFXffGwQv4gyA&sharer_sharetime=1606358522611&sharer_shareid=d336eec716f16e6430e624c43d70de51&exportkey=A%2BXWNLFxULD9GlBk%2F6%2Bzau8%3D&pass_ticket=0Wu39P9soW%2FRPvkW3dF3z3sCnKhCQaXVDXUMiJpz%2BJf934c23ZYJHSptsGVHArWJ&wx_header=0#rd)
 
 [基于DPDK的Open vSwitch概述](https://mp.weixin.qq.com/s/HJixu8WpqIJHugXVujY_TQ)
@@ -15,3 +16,25 @@ OVS内部的flow表示被转化成基于DPDK rte_flow的描述后通过rte_flow_
 [Intel E810 Advanced RSS介绍](https://mp.weixin.qq.com/s/l3R3OK5lbuzOu8u_ulS-Fg)
 
 [DPDK Rx flexible descriptor 在Intel E810 网卡中的使用](https://mp.weixin.qq.com/s/qA-ry_3TXH5ZaJBCwXHMJg)
+
+## OVS DPDK
+[OVS-DPDK Datapath Classifier](https://www.intel.com/content/www/us/en/developer/articles/technical/ovs-dpdk-datapath-classifier.html)
+流分类&缓存
+
+TSS分类器
+hash subtable
+每一种匹配都有一个hash table
+
+### 优化
+
+
+
+[Open vSwitch with DPDK Architectural Deep Dive](https://builders.intel.com/university/course/open-vswitch-with-dpdk-architectural-deep-dive)
+Lingyu/Brave45689.
+
+
+[open-vswitch-with-dpdk-architectural-deep-dive](https://builders.intel.com/university/course/dpdk-open-vswitch-accelerating-the-path-to-the-guest)
+
+
+
+[The Design and Implementation of Open vSwitch](https://www.usenix.org/conference/nsdi15/technical-sessions/presentation/pfaff)
